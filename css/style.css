@@ -1,0 +1,54 @@
+body {
+    text-align: center;
+}
+.message {
+	position: fixed;
+    background: rgba(0, 75, 255, 0.4);
+    transition: opacity 400ms;
+    visibility: hidden;
+    opacity: 0;
+    top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+.showup {
+	margin: 72px auto;
+	padding: 21px;
+	background: #fff;
+	border-radius: 6px;
+	width: 88%;
+	position: relative;
+	font-family: 'Fascinate Inline', serif;
+}
+
+.showup h2 {
+	font-family: 'Fascinate Inline', serif;
+}
+
+.showup .close {
+	position: absolute;
+	top: 21px;
+	right: 32px;
+	transition: all 200ms;
+	font-size: 32px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #333;
+}
+
+.showup .congratulation, .stats {
+	max-height: 50%;
+	overflow: auto;
+	text-align: center;
+}
+
+.show {
+	visibility: visible;
+	opacity: 100;
+}
+
+.message h2 {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
